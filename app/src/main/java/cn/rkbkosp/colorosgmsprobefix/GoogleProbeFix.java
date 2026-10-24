@@ -26,7 +26,7 @@ public final class GoogleProbeFix implements IXposedHookLoadPackage {
             "com.oplus.battery.restrictdynamicfeature.google.NetworkDetector";
     private static final String RESULT = DETECTOR + "$DetectorResult";
     private static final String HOST = "127.0.0.1";
-    private static final int PORT = 7890;
+    private static final int PORT = 7080;
     private static final int TIMEOUT_MS = 3000;
     private static boolean installed;
     private static boolean waitingForAttach;
